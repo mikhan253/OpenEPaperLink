@@ -1,9 +1,7 @@
 #include <Arduino.h>
 #include <LittleFS.h>
 
-#ifdef HAS_TFT
 #include <TFT_eSPI.h>
-#endif
 
 #include "makeimage.h"
 #include "tag_db.h"
